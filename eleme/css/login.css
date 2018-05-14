@@ -1,0 +1,177 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.background{
+    width: 7.5rem;
+    height: 13.34rem;
+    background-image: url("../img/header/background-image.png");
+    background-size: 7.5rem 13.34rem;
+    padding: 1.66rem  0.74rem 1.26rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.background .logo{
+    width: 100%;
+    height: 2.84rem;
+    font-size: 0.3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.background .logo img{
+    width: 2.26rem;
+    height: 2.26rem;
+    margin: 0 auto 0.28rem;
+}
+.background .fill{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+}
+.background .fill .filList{
+    width: 4.24rem;
+    height: 0.82rem;
+    background: rgba(255,255,255,0.3);
+    border-radius: 0.6rem;
+    border: 0.01rem solid #ff6700;
+    margin: 0 auto;
+    display: flex;
+    padding: 0.18rem 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.background .fill .filList .forget{
+    width: 1.2rem;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    color: white;
+    text-align: right;
+    position: absolute;
+    bottom: -0.3rem;
+    right: 0;
+    line-height: 0.2rem;
+}
+.background .fill .filList.lis1{
+    border: none;
+    background: #b0b0b0;
+}
+.background .fill .filList.lis1 .input{
+    line-height: 0.44rem;
+    border-bottom: none;
+}
+.background .fill .filList.lis1 .input a{
+    color: white;
+    font-size: 0.4rem;
+    display: flex;
+    margin-left: 1.2rem;
+}
+.background .fill .filList .left{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: flex;
+    margin: 0 0.3rem  0 0.1rem;
+}
+.background .fill .filList .left i{
+    margin: auto;
+    color: #ff6700;
+    font-size: 0.4rem;
+}
+.background .fill .filList .right{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: flex;
+    position: absolute;
+    top: 0.12rem;
+    right: 0.34rem;
+}
+.background .fill .filList .right i{
+    font-size: 0.4rem;
+    margin: auto;
+    color: #ff6700;
+}
+.background .fill .filList .input1{
+    width: 2.6rem;
+    height: 0.44rem;
+}
+.background .fill .filList .input1 input{
+    width: 2.6rem;
+    height: 0.44rem;
+    border-bottom:0.01rem solid #ff6700;
+    font-size: 0.2rem;
+    text-align: left;
+    margin: 0 auto;
+    background: none;
+    display: flex;
+}
+input::-webkit-input-placeholder {
+    color: white;
+}
+.background .fill .none{
+    width: 3rem;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.2rem;
+    color: white;
+    position: absolute;
+    bottom: -0.3rem;
+    right: 0.6rem;
+}
+.background .third{
+    width: 100%;
+    height: 1.4rem;
+}
+.background .third .title{
+    width: 100%;
+    height: 0.2rem;
+    margin-bottom: 0.53rem;
+    display: flex;
+    justify-content: center;
+}
+.background .third .title .left{
+    width: 0.68rem;
+    height: 0.02rem;
+    background: white;
+    margin: auto 0;
+}
+.background .third .title .right{
+    width: 0.68rem;
+    height: 0.02rem;
+    background: white;
+    margin: auto 0;
+}
+.background .third .title .name{
+    width:1.4rem ;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    color: white;
+}
+.background .third .font{
+    width: 100%;
+    height: 0.69rem;
+    display: flex;
+    justify-content: space-between;
+}
+.background .third .font a{
+    width: 0.69rem;
+    height: 0.69rem;
+    font-size: 2rem;
+    display: flex;
+}
+.background .third .font a i{
+    margin: auto;
+    font-size: 0.69rem;
+}

@@ -1,0 +1,223 @@
+/*
+* @Author: lenovo
+* @Date:   2018-04-20 13:14:44
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-04-20 17:35:54
+*/
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 0.88rem;
+    background-image: url("../img/header/dingdan.png");
+    background-size: 7.5rem 0.88rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: white;
+}
+.content{
+    width: 7.02rem;
+    height: 2.5rem;
+    margin: 0.4rem 0.24rem;
+    border-radius: 0.06rem;
+    box-shadow: 0 0.01rem 0.1rem 0.01rem #ff6700;
+    padding: 0.28rem 0.26rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.content .potrail{
+    width: 0.84rem;
+    height: 0.84rem;
+}
+.content .potrail img{
+    width: 0.84rem;
+    height: 0.84rem;
+    margin-bottom: 0.4rem;
+}
+.content .info{
+    width: 5.36rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.content .info .title{
+    width: 100%;
+    height: 0.32rem;
+    border-bottom:0.02rem solid #b0b0b0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.content .info .title .left{
+    width: 1.4rem;
+    height: 100%;
+    font-size: 0.3rem;
+    line-height: 0.32rem;
+    font-weight:bold ;
+}
+.content .info .title .right{
+    width: 2rem;
+    height: 0.32rem;
+    font-size: 0.3rem;
+    line-height: 0.32rem;
+    color: #ff6700;
+    text-align: right;
+}
+.content .info .shopInfo{
+    width: 100%;
+    height: 1.18rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.14rem;
+    margin-top: 0.04rem;
+}
+.content .info .shopInfo .left{
+    width: 4.4rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content .info .shopInfo .left .box{
+    width: 100%;
+    height: 0.39rem;
+    font-size: 0.2rem;
+    line-height: 0.44rem;
+    text-align: left;
+}
+.content .info .shopInfo p{
+    width: 0.86rem;
+    height: 0.86rem;
+    font-size: 0.36rem;
+    line-height: 0.86rem;
+    text-align: center ;
+    color: white;
+    margin-top: 0.2rem;
+}
+.content .info .shopInfo i{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0.26rem;
+    right: 0;
+    color: #ff6700;
+    z-index: -1;
+}
+.content .info .point{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.content .info .point .evalu{
+    width: 1.16rem;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: #ff6700;
+}
+.content .info .point .evalu i{
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+}
+.content .info .point .evalu.evalu1{
+    width: 1.16rem;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: #b0b0b0;
+}
+.content .info .point .evalu .evalu1 i{
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+}
+.content .info .point .resem{
+    width: 0.98rem;
+    height: 0.3rem;
+    background: #b0b0b0;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    text-align: center;
+    border-radius: 0.06rem;
+    color: white;
+    margin-left: 0.16rem;
+}
+.content .info .point .again{
+    width: 0.98rem;
+    height: 0.3rem;
+    background: #ff6700;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.06rem;
+    margin-left: 0.16rem;
+}
+.saleDe{
+    width: 7.02rem;
+    height:5.14rem;
+    background: white;
+    box-shadow: 0.02rem 0.01rem 0.01rem 0.01rem rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 3.4rem;
+    left: 0.24rem;
+    padding: 0.34rem 0.2rem ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.click{
+    width: 100%;
+    height: 0.07rem;
+    background: #d3cfcd;
+    position: fixed;
+    top: 12.28rem;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    padding:0  0.44rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.tab .box{
+    width: 0.94rem;
+    height: 0.98rem;
+}
+.tab .box>a{
+    width: 0.94rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.24rem;
+    text-align: center;
+    color:#c9c9c9;
+}
+.tab .box>a>i{
+    height: 0.5rem;
+    width: 0.5rem;
+    font-size: 0.5rem;
+    margin: 0.04rem auto;
+}
+.tab .box.box1>a{
+    color: #ff6700;
+}

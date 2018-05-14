@@ -1,0 +1,422 @@
+/*
+* @Author: lenovo
+* @Date:   2018-04-17 10:42:31
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-04-17 22:27:45
+*/
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 1.04rem;
+    background-image: url("../img/header/bg.png");
+    background-size:100% 100% ;
+    padding:0.15rem 0.24rem 0.12rem;
+    -webkit-box-sizing: border-box;
+}
+.header>.top{
+    width: 100%;
+    height: 0.28rem;
+    margin-bottom: 0.15rem;
+}
+.top>.tleft{
+    width: 3.5rem;
+    height: 0.28rem;
+    float: left;
+    font-size: 0.18rem;
+    color: #fff9f5;
+    line-height: 0.28rem;
+}
+.top .tleft i{
+    font-size: 0.2rem;
+    color: #fff9f5;
+}
+.top>.tright{
+    width: 1.14rem;
+    height: 0.28rem;
+    float: right;
+    font-size: 0.18rem;
+    padding-left: 0.26rem;
+    -webkit-box-sizing: border-box;
+    color: #fff9f5;
+}
+.header>.bottom{
+    width:100% ;
+    height: 0.35rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.35rem;
+    background: white;
+    border-radius:0.1rem ;
+    color: #b2b2b2;
+}
+.header>.bottom i{
+    line-height: 0.35rem;
+}
+.header .bottom input{
+    border: none;
+    width: 3.1rem;
+    font-size: 0.18rem;
+    line-height: 0.35rem;
+    color: #b7b7b7;
+    height: 0.35rem;
+}
+.header>.bottom .iconfont.icon-sousuo{
+    font-size: 0.28rem;
+    line-height: 0.35rem;
+    color: #b2b2b2;
+}
+.channel{
+    width:7.5rem;
+    height: 3.8rem;
+    /*background: aqua;*/
+    padding:0.32rem  0.24rem  0;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.channel>.select{
+    width: 100%;
+    height: 2.89rem;
+    margin-bottom: 0.22rem;
+}
+
+.select>.leib>a{
+    display: block;
+    width: 1.404rem;
+    height:1.35rem ;
+    float: left;
+    margin-bottom: 0.22rem;
+    font-size: 0.24rem;
+    color:#000000;
+    text-align: center;
+}
+.select >.leib >img{
+    width: 1.01rem;
+    height: 1.01rem;
+    margin:0 0.197rem 0.14rem;
+}
+.channel>.select{
+    width: 100%;
+    height: 2.89rem;
+    margin-bottom: 0.22rem;
+}
+.channel>.select .leib{
+    width: 1.404rem;
+    height:1.35rem ;
+    float: left;
+    margin-bottom: 0.22rem;
+    font-size: 0.24rem;
+    color:#000000;
+    text-align: center;
+}
+.channel>.select .leib .pic{
+    width: 1.01rem;
+    height: 1.01rem;
+    margin:0 0.197rem;
+}
+.channel>.select2{
+    width: 100%;
+    height: 2.89rem;
+    margin-bottom: 0.22rem;
+    position: absolute;
+    top: 0.32rem;
+    left: 7.4rem;
+}
+.channel>.select2 .leib{
+    width: 1.404rem;
+    height:1.35rem ;
+    float: left;
+    margin-bottom: 0.22rem;
+    font-size: 0.24rem;
+    color:#000000;
+    text-align: center;
+}
+.channel>.select2 .leib .pic{
+    width: 1.23rem;
+    height: 1.23rem;
+    margin:0 0.097rem;
+}
+.channel>.select3{
+    width: 100%;
+    height: 2.89rem;
+    margin-bottom: 0.22rem;
+    position: absolute;
+    top: 0.32rem;
+    left: 7.4rem;
+}
+.channel>.select3 .leib{
+    width: 1.404rem;
+    height:1.35rem ;
+    float: left;
+    margin-bottom: 0.22rem;
+    font-size: 0.24rem;
+    color:#000000;
+    text-align: center;
+}
+.channel>.select3 .leib .pic{
+    width: 1.01rem;
+    height: 1.01rem;
+    margin:0 0.197rem;
+}
+.channel .button{
+    width: 1rem;
+    height: 0.1rem;
+    /*background: red;*/
+    margin:0 auto;
+}
+.channel .button>li.Bot{
+    width: 0.53rem;
+    height: 0.1rem;
+    background: #ffbe60;
+    border-radius: 0.06rem;
+    float: left;
+    margin-right: 0.09rem;
+}
+.channel .button>li{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #ffbe60;
+    border-radius: 50%;
+    float: left;
+    margin-right: 0.09rem;
+}
+.kuang{
+    width: 100%;
+    height: 0.07rem;
+    background: #e4e1e0;
+}
+.recom{
+    width: 100%;
+    height: 1.22rem;
+    /*background: red;*/
+    padding: 0.21rem 0.22rem 0.28rem;
+    box-sizing: border-box;
+}
+.recom >.tuijian{
+    width: 100%;
+    height: 0.22rem;
+    /*background: aqua;*/
+    padding: 0 1.99rem;
+    box-sizing: border-box;
+}
+.recom >.selection{
+    width: 100%;
+    height: 0.24rem;
+    margin: 0.26rem 0 0.35rem ;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content:space-between;
+}
+.tuijian >.tend{
+    width: 0.72rem;
+    height: 0.04rem;
+    background: #aeadad;
+    margin: 0.09rem 0;
+    float: left;
+}
+.tuijian> .word{
+    width: 0.96rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    margin: 0 0.28rem;
+    float: left;
+    line-height: 0.24rem;
+    color: #000;
+}
+.selection> .content{
+     width: 0.98rem;
+     height: 0.24rem;
+     font-size: 0.24rem;
+     /*margin-right: 0.82rem;*/
+     /*float: left;*/
+     line-height: 0.24rem;
+     color: #000;
+ }
+.selection> .content:nth-child(1){
+     width: 1.4rem;
+     height: 100%;
+    /*margin-left:0.22rem ;*/
+ }
+.selection> .content:nth-child(4){
+    width:0.82rem;
+    height: 100%;
+    margin-right: 0;
+}
+.selection> .content i{
+    font-size: 0.08rem;
+}
+.bottom{
+    width: 100%;
+    height:12rem;
+    /*overflow: hidden;*/
+}
+.bottom>a{
+    display: flex;
+    width: 100%;
+    height: 1.9rem;
+    margin-bottom: 0.26rem;
+    padding: 0 0.24rem 0.2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.bottom>a .pic img{
+    width: 1.49rem;
+    height: 1.12rem;
+    background: aqua;
+    float: left;
+}
+.bottom>a .desc{
+    display: flex;
+    width: 5.1rem;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom>a .desc .title{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom>a .desc .title h3{
+    height: 0.3rem;
+    font-size: 0.3rem;
+    margin-bottom: 0.18rem;
+    line-height: 0.3rem;
+    font-weight: normal;
+}
+.bottom>a .desc .title .serve{
+    width: 1.9rem;
+    height: 0.24rem;
+    display: flex;
+}
+.bottom>a .desc .title .serve>.get{
+    width: 0.8rem;
+    height: 0.24rem;
+    border: 0.01rem solid #ff6700;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color:#ff6700;
+    margin-right: 0.1rem;
+}
+.bottom>a .desc .title .serve>.get2{
+    width: 1rem;
+    height: 0.24rem;
+    background: #ff6700;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color:white;
+    float: right;
+}
+.bottom>a .desc .evalu{
+    width: 100%;
+    height: 0.18rem;
+    font-size: 0.16rem;
+    line-height: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom>a .desc .evalu .left{
+    width: 2.11rem;
+    height: 0.18rem;
+}
+.bottom>a .desc .evalu .left img{
+    width: 0.9rem;
+    height: 0.14rem;
+    float: left;
+}
+.bottom>a .desc .evalu span{
+    width: 1.8rem;
+    height: 0.18rem;
+    line-height: 0.18rem;
+    text-align: right;
+    font-size: 0.18rem;
+}
+.bottom>a .desc>.price{
+    width: 100%;
+    height: 0.18rem;
+    font-size:0.18rem;
+    line-height: 0.18rem;
+}
+.bottom>a .desc>.first{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.bottom>a .desc>.first>.order{
+    width: 0.48rem;
+    height: 0.2rem;
+    background: #00ff00;
+    font-size: 0.16rem;
+    text-align: center;
+    color: white;
+    line-height: 0.2rem;
+    margin-right: 0.16rem;
+    float: left;
+}
+.bottom>a .desc>.decre{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.bottom>a .desc>.decre>.decline{
+    width: 0.48rem;
+    height: 0.2rem;
+    background: #ff6700;
+    font-size: 0.16rem;
+    text-align: center;
+    color:white;
+    line-height: 0.2rem;
+    margin-right: 0.16rem;
+    float: left;
+}
+
+
+.click{
+    width: 100%;
+    height: 0.07rem;
+    background: #d3cfcd;
+    position: fixed;
+    top: 12.28rem;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    padding:0  0.44rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.tab .box{
+    width: 0.94rem;
+    height: 0.98rem;
+}
+.tab .box>a{
+    width: 0.94rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.24rem;
+    text-align: center;
+    color:#c9c9c9;
+}
+.tab .box>a>i{
+    height: 0.5rem;
+    width: 0.5rem;
+    font-size: 0.5rem;
+    margin: 0.04rem auto;
+}
+.tab .box.box1>a{
+    color: #ff6700;
+}

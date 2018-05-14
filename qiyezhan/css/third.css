@@ -1,0 +1,341 @@
+ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    /* 清除下划线 */
+    text-decoration: none;
+    color: #000;
+}
+i{
+    /* 字体样式：常规，i标签正常字体均为斜体 */
+    font-style: normal;
+}
+del{
+    color: #adadad;
+}
+h4{
+    font-weight: normal;
+}
+.top {
+    height: 127px;
+    width: 1349px;
+}
+.main{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto 0 auto ;
+    position: relative;
+}
+.top .main{
+    display: flex;
+    justify-content: space-between;
+}
+.top .main .left{
+    width: 192px;
+    height: 127px;
+}
+.top .main .left img{
+    width: 100%;
+    margin-top:28px ;
+}
+.top .main .right{
+    width: 820px;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+}
+.top .main .right .box{
+    width: auto;
+    height: 30px;
+    margin: auto 0;
+}
+
+.top .main .right .box a{
+    width: auto;
+    height: 30px;
+    font-size: 16px;
+    display: block;
+    line-height:30px;
+    text-align: center;
+    margin: auto 0;
+    color: black;
+}
+.top .main .right a:hover{
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.banner:hover .back{
+    background: #d8000f;
+}
+.banner:hover .forward{
+    background: #d8000f;
+}
+.banner .ban{
+    width:1349px ;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.banner .back{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 210px;
+    left: 0;
+    color: white;
+}
+.banner .back i{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+.banner .forward i{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+.banner .forward{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 210px;
+    right:0;
+}
+.banner .dotBox{
+    width:140px ;
+    height:20px ;
+    position: absolute;
+    bottom: 20px;
+    right: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .dotBox .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid white;
+}
+/*title*/
+.title{
+    width: 100%;
+    height: 106px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+.title .main{
+    display: flex;
+    justify-content: space-between;
+}
+.title .main .left{
+    width:auto ;
+    height: 100%;
+    font-size: 32px;
+    line-height: 106px;
+    font-weight: bold;
+    color: #404040;
+}
+.title .main .left:before{
+    width: 127px;
+    height: 5px;
+    color: #d8000f;
+    position: absolute;
+    bottom: 0;
+}
+.title .main .right{
+    width: 286px;
+    height: 100%;
+    display: flex;
+}
+.title .main .right h4{
+    line-height: 106px;
+    font-size: 14px;
+}
+.title .main .right a{
+    font-size: 14px;
+    color: #c7000a;
+    line-height: 106px;
+    margin-right: 8px;
+}
+.title .main .right span{
+    line-height: 106px;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.title .main .right i{
+    font-size: 20px;
+    color: #c7000a;
+    line-height: 106px;
+    margin-right: 8px;
+}
+/*click*/
+.click{
+    width: 140px;
+    height: 40px;
+    margin: 40px auto;
+}
+.click a{
+    width: 140px;
+    height: 40px;
+    background: #d8000f;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.click a:hover{
+    background: #d8000f;
+}
+/*contact*/
+.contact{
+    width: 100%;
+    height: auto;
+}
+.contact .main h4{
+    font-size: 20px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #d8000f;
+}
+.contact .main p{
+    font-size: 15px;
+    height: auto;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.linklist{
+    width: 100%;
+    height: 160px;
+    padding: 70px 75px;
+    box-sizing: border-box;
+}
+.linklist .linkInfo{
+    width: 126px;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+    border-left: 4px solid #d8000f;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.linklist .linkInfo a{
+    width: 128px;
+    height: 100%;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+}
+.linklist .linkInfo:nth-child(7){
+    margin-right: 0;
+}
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 278px;
+    background:#262626;
+    padding: 74px 95px;
+    box-sizing: border-box;
+}
+.footer dl{
+    display: block;
+    width: 80px;
+    height: auto;
+    float:left ;
+    margin-right: 120px;
+}
+.footer dt{
+    font-size: 18px;
+    display: block;
+    color: white;
+}
+.footer dd{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #6737373;
+}
+.footer dd a{
+    color: #737373;
+}
+.footer dd a:hover{
+    color: #d8000f;
+}
+.footer .num{
+    width: 218px;
+    height: 100%;
+    float: left;
+    margin-right:120px;
+}
+.footer .num h4{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 28px;
+}
+.footer .num img{
+    margin-bottom: 12px;
+}
+.footer .num h5{
+    color: #737373;
+    font-size: 14px;
+}
+.footer .logo{
+    width: 380px;
+    height: 100%;
+    float: left;
+}
+.footer .logo .pic{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 30px;
+}
+.footer .logo .pic .pic2{
+    width: 138px;
+    height: 36px;
+    margin-right: 30px;
+}
+.footer .logo .pic .pic3{
+    width: 36px;
+    height: 36px;
+}
+.footer .logo .info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer .logo .info span{
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}
+.footer .logo .info p{
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}
+.footer .logo .info p a{
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}

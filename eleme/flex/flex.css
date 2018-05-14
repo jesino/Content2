@@ -1,0 +1,13 @@
+.box{
+    width: 3.75rem;
+    height: 9.67rem;
+    background: black;
+    display: flex;
+}
+.box>a{
+    display: block;
+    height: 1.99rem;
+    flex-grow: 1;
+    background: red;
+    flex-direction: row-reverse;
+}

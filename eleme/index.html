@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--理想视口 适用于在不同屏幕下的大小-->
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 可以引入  JS 文件，设定好不同屏幕下的适用大小-->
+    <script src="./js/rem.js"></script>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_632724_g6a84qrb7arwwmi.css">
+    <title>饿了么外卖首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/commom.css">
+</head>
+<body>
+<!--header开始-->
+    <div class="header">
+        <div class="top">
+            <div class="tleft"><i class="iconfont icon-icon2"></i> 山西省太原市小店区凯通大厦</div>
+            <div class="tright">22° <i class="iconfont icon-tianqi"></i></div>
+        </div>
+
+        <div class="bottom"><i class="iconfont icon-sousuo"></i>  <input type="text"placeholder="请输入要搜索的商家、菜品"></div>
+    </div>
+
+<!--header结束-->
+    <div class="channel">
+        <div class="select">
+            <div class="leib"><a href=""><img src="img/select/美食@2x.png" alt="" class="pic"><br>美食</a></div>
+            <div class="leib"><a href=""><img src="img/select/食品饮料@2x.png" alt="" class="pic"><br>饮品</a></div>
+            <div class="leib"><a href=""><img src="img/select/生鲜水果@2x.png" alt="" class="pic"><br>果蔬</a></div>
+            <div class="leib"><a href=""><img src="img/select/礼物@2x.png" alt="" class="pic"><br>礼物</a></div>
+            <div class="leib"><a href=""><img src="img/select/蛋糕@2x.png" alt="" class="pic"><br>甜点</a></div>
+            <div class="leib"><a href=""><img src="img/select/药品@2x.png" alt="" class="pic"><br>药品</a></div>
+            <div class="leib"><a href=""><img src="img/select/花朵@2x.png" alt="" class="pic"><br>鲜花</a></div>
+            <div class="leib"><a href=""><img src="img/select/汉堡@2x.png" alt="" class="pic"><br>汉堡</a></div>
+            <div class="leib"><a href=""><img src="img/select/天猫超市-零食@2x.png" alt="" class="pic"><br>零食</a></div>
+            <div class="leib"><a href=""><img src="img/select/店铺@2x.png" alt="" class="pic"><br>店铺</a></div>
+        </div>
+        <!--<div class="select2">-->
+            <!--<div class="leib"><img src="img/select2/meishi.png" alt="" class="pic"><br>美食</div>-->
+            <!--<div class="leib"><img src="img/select2/chaoshi.png" alt="" class="pic"><br>饮品</div>-->
+            <!--<div class="leib"><img src="img/select2/shengxian.png" alt="" class="pic"><br>果蔬</div>-->
+            <!--<div class="leib"><img src="img/select2/zhuansong.png" alt="" class="pic"><br>礼物</div>-->
+            <!--<div class="leib"><img src="img/select2/songyao.png" alt="" class="pic"><br>甜点</div>-->
+            <!--<div class="leib"><img src="img/select2/xiawucha.png" alt="" class="pic"><br>药品</div>-->
+            <!--<div class="leib"><img src="img/select2/hanbao.png" alt="" class="pic"><br>鲜花</div>-->
+            <!--<div class="leib"><img src="img/select2/quanbu.png" alt="" class="pic"><br>汉堡</div>-->
+            <!--<div class="leib"><img src="img/select2/xianhua.png" alt="" class="pic"><br>零食</div>-->
+            <!--<div class="leib"><img src="img/select2/yinliao.png" alt="" class="pic"><br>店铺</div>-->
+        <!--</div>-->
+        <!--<div class="select3">-->
+            <!--<div class="leib"><img src="img/select/美食@2x.png" alt="" class="pic"><br>美食</div>-->
+            <!--<div class="leib"><img src="img/select/食品饮料@2x.png" alt="" class="pic"><br>饮品</div>-->
+            <!--<div class="leib"><img src="img/select/生鲜水果@2x.png" alt="" class="pic"><br>果蔬</div>-->
+            <!--<div class="leib"><img src="img/select/礼物@2x.png" alt="" class="pic"><br>礼物</div>-->
+            <!--<div class="leib"><img src="img/select/蛋糕@2x.png" alt="" class="pic"><br>甜点</div>-->
+            <!--<div class="leib"><img src="img/select/药品@2x.png" alt="" class="pic"><br>药品</div>-->
+            <!--<div class="leib"><img src="img/select/花朵@2x.png" alt="" class="pic"><br>鲜花</div>-->
+            <!--<div class="leib"><img src="img/select/汉堡@2x.png" alt="" class="pic"><br>汉堡</div>-->
+            <!--<div class="leib"><img src="img/select/天猫超市-零食@2x.png" alt="" class="pic"><br>零食</div>-->
+            <!--<div class="leib"><img src="img/select/店铺@2x.png" alt="" class="pic"><br>店铺</div>-->
+        <!--</div>-->
+        <ul class="button">
+            <li class="Bot"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+<!--分割线-->
+    <div class="kuang"></div>
+
+<!--推荐栏-->
+    <div class="recom">
+        <div class="tuijian">
+            <div class="tend"></div>
+            <div class="word">推荐商家</div>
+            <div class="tend"></div>
+        </div>
+        <ul class="selection">
+            <li class="content"><a href="">综合排序 <i class="iconfont icon-jiantou-copy-copy"></i></a></li>
+            <li class="content"><a href="">好评优先</a></li>
+            <li class="content"><a href="">距离最近</a></li>
+            <li class="content"><a href="">筛选 <i class="iconfont icon-shaixuan"></i></a></li>
+        </ul>
+    </div>
+<!--推荐栏结束-->
+
+
+
+<!--商家一览-->
+    <div class="bottom">
+        <a href="">
+                <div class="pic"><img src="img/business/liangpi.png" alt=""></div>
+                <div class="desc">
+                    <div class="title">
+                        <h3>魏家凉皮(和信摩尔店)</h3>
+                        <div class="serve">
+                            <div class="get">准时达</div>
+                            <div class="get2">蜂鸟配送</div>
+                        </div>
+                    </div>
+                    <div class="evalu">
+                        <div class="left"><img src="img/business/xingji.png" alt="">月售900
+                        </div>
+                        <span>25分钟 1.7Km</span>
+                    </div>
+                    <div class="price">起送¥20 配送¥4</div>
+                    <div class="first">
+                        <div class="order">首单</div>
+                        新用户下单立减20元
+                    </div>
+                    <div class="decre">
+                        <div class="decline">满减</div>
+                        满20元减10元
+                    </div>
+                </div>
+        </a>
+        <a href="">
+            <div class="pic"><img src="img/business/hanbao.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>汉堡王</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售200
+                    </div>
+                    <span>35分钟 1.0Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减15元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满20元减5元
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="pic"><img src="img/business/mixia.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>阿香米线</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售200
+                    </div>
+                    <span>40分钟 2.2Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减10元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满10元减4元
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="pic"><img src="img/business/zhou.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>粥蒸美</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售900
+                    </div>
+                    <span>30分钟 2.6Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减5元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满10元减3元
+                </div>
+            </div>
+        </a>
+        <a href="shangpu.html">
+            <div class="pic"><img src="img/business/shutiao.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>艾薯夫妇(茂业店)</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售800
+                    </div>
+                    <span>25分钟 1.7Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减15元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满50元减25元
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="pic"><img src="img/business/liangpi.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>魏家凉皮(和信摩尔店)</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售900
+                    </div>
+                    <span>25分钟 1.7Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减20元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满20元减10元
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="pic"><img src="img/business/liangpi.png" alt=""></div>
+            <div class="desc">
+                <div class="title">
+                    <h3>魏家凉皮(和信摩尔店)</h3>
+                    <div class="serve">
+                        <div class="get">准时达</div>
+                        <div class="get2">蜂鸟配送</div>
+                    </div>
+                </div>
+                <div class="evalu">
+                    <div class="left"><img src="img/business/xingji.png" alt="">月售900
+                    </div>
+                    <span>25分钟 1.7Km</span>
+                </div>
+                <div class="price">起送¥20 配送¥4</div>
+                <div class="first">
+                    <div class="order">首单</div>
+                    新用户下单立减20元
+                </div>
+                <div class="decre">
+                    <div class="decline">满减</div>
+                    满20元减10元
+                </div>
+            </div>
+        </a>
+
+    </div>
+<!--商家一览结束-->
+<!--Tab-->
+<div class="click"></div>
+<div class="tab">
+        <div class="box box1"><a href="index.html"><i class="iconfont icon-icon_home"></i> 首页</a></div>
+        <div class="box"><a href=""><i class="iconfont icon-faxiantianchong"></i>发现</a></div>
+        <div class="box"><a href="dingdan.html"><i class="iconfont icon-dingdan1"></i>订单</a></div>
+        <div class="box"><a href="myhome.html"><i class="iconfont icon-wode"></i>我的</a></div>
+</div>
+<!--Tab-->
+</body>
+</html>
+
+

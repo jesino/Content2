@@ -1,0 +1,672 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    height: 3.88rem;
+    position: relative;
+}
+.header>.bg{
+    width: 100%;
+    height: 3.88rem ;
+    background-image: url("../img/header/bgpay.png");
+    background-size: 7.5rem 3.88rem;
+}
+.header>.search{
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    top:0;
+    padding: 0.23rem 0.24rem;
+    box-sizing: border-box;
+}
+.search .left{
+    width: 0.24rem;
+    height: 0.42rem;
+    padding: 0.09rem 0;
+    box-sizing: border-box;
+}
+.search .left i{
+    font-size: 0.28rem;
+    color: white;
+    display: flex;
+    margin: 0.02rem 0.01rem;
+}
+.header .select{
+    width: 100%;
+    height: 0.98rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.88rem;
+}
+.header .select .cue{
+    width: 100%;
+    height: 50%;
+    font-size: 0.24rem;
+    line-height: 0.49rem;
+    text-align: left;
+    color: white;
+}
+.header .select .address{
+    width: 100%;
+    height: 50%;
+    font-size: 0.36rem;
+    line-height: 0.49rem;
+    text-align: left;
+    color: white;
+}
+.header .payment{
+    width: 7.02rem;
+    height: 1.16rem;
+    background: white;
+    box-shadow: 0.02rem 0.01rem 0.01rem 0.01rem rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 2rem;
+    left: 0.24rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.header .payment .time{
+    width: 100%;
+    height: 0.58rem;
+    border-bottom: 0.01rem solid #d3d1d1;
+    display: flex;
+    justify-content: space-between;
+}
+.header .payment .time h6{
+    width: 0.96rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: left;
+}
+.header .payment .time span{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    line-height: 0.57rem;
+    text-align: right;
+    color: #ff6700;
+}
+.header .payment .method{
+    width: 100%;
+    height: 0.57rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .payment .method h6{
+    width: 0.96rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: left;
+}
+.header .payment .method span{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    line-height: 0.57rem;
+    text-align: right;
+    color: #ff6700;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .payment .method span i{
+    font-size: 0.2rem;
+}
+/*购买栏目详情*/
+.header .saleDe{
+    width: 7.02rem;
+    height:5.14rem;
+    background: white;
+    box-shadow: 0.02rem 0.01rem 0.01rem 0.01rem rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 3.4rem;
+    left: 0.24rem;
+    padding: 0.34rem 0.2rem ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header .saleDe .title{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: left;
+}
+.header .saleDe .shopInfo{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .saleDe .shopInfo .name{
+    height: 0.5rem;
+    width: 3rem;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    display: flex;
+}
+.header .saleDe .shopInfo .name img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.1rem;
+}
+.header .saleDe .shopInfo .price{
+    height: 0.5rem;
+    width: 0.6rem;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+}
+.header .saleDe .shopInfo .num{
+    height: 0.5rem;
+    width: 0.6rem;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+}
+.header .saleDe .lunchBox{
+    width: 100%;
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .saleDe .lunchBox .name{
+    height: 0.24rem;
+    width: 1.8rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+}
+.header .saleDe .lunchBox .price{
+    height: 0.24rem;
+    width: 0.6rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+}
+.header .saleDe .serve{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .saleDe .serve .name{
+    height: 0.3rem;
+    width: 1rem;
+    background: #ff6700;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    color: white;
+}
+.header .saleDe .serve .price{
+    height: 0.3rem;
+    width: 0.6rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+}
+.header .saleDe .poi1{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: #b0b0b0;
+}
+.header .saleDe .envelo{
+    width: 100%;
+    height: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .saleDe .envelo .name{
+    height: 0.2rem;
+    width: 1rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.header .saleDe .envelo .price{
+    height: 0.2rem;
+    width: 2rem;
+    font-size: 0.18rem;
+    line-height: 0.2rem;
+    text-align: right;
+}
+.header .saleDe .envelo .price i{
+    font-size: 0.2rem;
+}
+.header .saleDe .poi2{
+    width: 100%;
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .saleDe .poi2 .name{
+    height: 0.24rem;
+    width: 1rem;
+    font-size: 0.18rem;
+    color: #b0b0b0;
+    line-height: 0.24rem;
+}
+.header .saleDe .poi2 .price{
+    height: 0.24rem;
+    width: 0.6rem;
+    font-size: 0.24rem;
+    color: #ff6700;
+    line-height: 0.24rem;
+}
+/*备注*/
+.remarks{
+    width: 7.02rem;
+    height: 1.74rem;
+    background: white;
+    box-shadow: 0.02rem 0.01rem 0.01rem 0.01rem rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 1.4rem;
+    left: 0.24rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.remarks .time{
+    width: 100%;
+    height: 0.58rem;
+    border-bottom: 0.01rem solid #d3d1d1;
+    display: flex;
+    justify-content: space-between;
+}
+.remarks .time h6{
+    width: 0.96rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: left;
+}
+.remarks .time span{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    line-height: 0.57rem;
+    text-align: right;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: flex-end;
+}
+.remarks .time span i{
+    font-size: 0.2rem;
+}
+.remarks .method{
+    width: 100%;
+    height: 0.57rem;
+    display: flex;
+    justify-content: space-between;
+}
+.remarks .method h6{
+    width: 0.96rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: left;
+}
+.remarks .method span{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    line-height: 0.57rem;
+    text-align: right;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: flex-end;
+}
+.remarks .method span i{
+    font-size: 0.2rem;
+}
+.remarks .name{
+    width: 100%;
+    height: 0.57rem;
+    display: flex;
+    justify-content: space-between;
+}
+.remarks .name h6{
+    width: 0.96rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: left;
+}
+.remarks .name span{
+    width: 2.4rem;
+    font-size: 0.24rem;
+    line-height: 0.57rem;
+    text-align: right;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: flex-end;
+}
+.remarks .name span i{
+    font-size: 0.3rem;
+    color: #b0b0b0;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    background: bisque;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer .tab{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+}
+/*tab栏目*/
+.tab>.trade{
+    width:5.49rem;
+    height: 100%;
+    background: #383838;
+    padding:0.18rem 0.48rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.trade .des{
+    color: white;
+    font-size: 0.3rem;
+    line-height: 0.62rem;
+    width: auto;
+    height: 0.62rem;
+}
+.trade .total{
+    color: white;
+    font-size: 0.2rem;
+    line-height: 0.62rem;
+    text-align: center;
+    width: 2rem;
+    height: 0.62rem;
+}
+.tab>a{
+    display: flex;
+    flex-grow: 1;
+    font-size: 0.3rem;
+    padding: 0 0.48rem;
+    color: white;
+    line-height:0.98rem ;
+    background: #ff6700;
+}
+
+
+/*支付方式*/
+.pay{
+    width: 7.02rem;
+    height: 5.16rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ff6700;
+    background: white;
+    padding: 0  0.48rem 0.68rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 4rem;
+    left: 0.24rem;
+}
+.pay>.title{
+    width: 100%;
+    height: 0.66rem;
+    border-bottom: 0.02rem solid #b0b0b0;
+    position: relative;
+}
+.pay>.title h6{
+    margin: 0 auto;
+    width: 2.3rem;
+    height: 0.68rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.pay>.title h6 i{
+    color:#3a76fe ;
+}
+.pay>.title a i{
+    width: 0.3rem;
+    height: 0.3rem;
+    font-size: 0.2rem;
+    position: absolute;
+    right: 0.06rem;
+    top: 0.22rem;
+}
+.pay>.demand{
+    width: 100%;
+    height: 0.75rem;
+    border-bottom: 0.01rem #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+.pay>.demand .left{
+    width: 2rem;
+    height: 0.75rem;
+    font-size: 0.24rem;
+    text-align: left;
+    line-height: 0.75rem;
+}
+.pay>.demand a{
+    width: 0.4rem;
+    height: 0.75rem;
+    display: flex;
+    line-height: 0.75rem;
+}
+.pay>.demand a i{
+    font-size: 0.3rem;
+    color: #d1d1d1;
+}
+.pay>.demand.active a i{
+    color: #ff6700;
+}
+
+
+/*指纹支付*/
+.pay{
+    width: 7.02rem;
+    height: 5.16rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ff6700;
+    background: white;
+    padding: 0  0.48rem 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 4rem;
+    left: 0.24rem;
+}
+.pay>.title{
+    width: 100%;
+    height: 0.66rem;
+    border-bottom: 0.02rem solid #b0b0b0;
+    position: relative;
+}
+.pay>.title h6{
+    margin: 0 auto;
+    width: 2.3rem;
+    height: 0.68rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.pay>.title h6 i{
+    color:#3a76fe ;
+}
+.pay .total{
+    width: 100%;
+    height: 1.10rem;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1.10rem;
+}
+.pay .point{
+    width: 100%;
+    height: 0.94rem;
+}
+.pay .point .top{
+    width: 100%;
+    height: 0.46rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+.pay .point .top .name{
+    width: 1rem;
+    height: 0.46rem;
+    font-size: 0.24rem;
+    color: #b0b0b0;
+    line-height: 0.46rem;
+}
+.pay .point .top .des{
+    width: 4rem;
+    height: 0.46rem;
+    text-align: right;
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+}
+.pay .point .bottom{
+    width: 100%;
+    height: 0.47rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+.pay .point .bottom .name{
+    width: 1rem;
+    height: 0.47rem;
+    font-size: 0.24rem;
+    color: #b0b0b0;
+    line-height: 0.47rem;
+}
+.pay .point .bottom .des{
+    width: 3rem;
+    height: 0.47rem;
+    text-align: right;
+    font-size: 0.24rem;
+    line-height: 0.47rem;
+}
+.pay .recog{
+    width: 100%;
+    height: 1.68rem;
+}
+.pay .recog i{
+    font-size: 1.2rem;
+    margin-left: 2.4rem;
+    line-height: 1.68rem;
+    color: rgba(255,115,25,0.96);
+}
+.pay .main{
+    width: 100%;
+    height: 0.42rem;
+    font-size: 0.24rem;
+    line-height: 0.42rem;
+    text-align: center;
+}
+.pay .main i{
+    font-size: 0.42rem;
+    color: #a4d2ff;
+    line-height: 0.42rem;
+}
+
+/*支付完成*/
+.pay{
+    width: 7.02rem;
+    height: 5.16rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ff6700;
+    background: white;
+    padding: 0  0.48rem 0.68rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 4rem;
+    left: 0.24rem;
+}
+.pay>.title{
+    width: 100%;
+    height: 0.66rem;
+    border-bottom: 0.02rem solid #b0b0b0;
+    position: relative;
+}
+.pay>.title h6{
+    margin: 0 auto;
+    width: 2.3rem;
+    height: 0.68rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.pay .done{
+    width: 100%;
+    height: 3.2rem;
+    padding: 0.65rem 0.78rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.pay .done .to{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+}
+.pay .done .to i{
+    font-size: 0.9rem;
+    margin: 0 auto;
+    line-height: 0.8rem;
+    color: #ff6700;
+}
+.pay .done .point{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.pay .done .total{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.pay .option{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.78rem;
+    box-sizing: border-box;
+}
+.pay .option .left{
+    width: 1.68rem;
+    height: 0.44rem;
+    background: #b0b0b0;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+.pay .option .right{
+    width: 1.68rem;
+    height: 0.44rem;
+    background: #ff6700;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: white;
+    border-radius: 0.4rem;
+}
