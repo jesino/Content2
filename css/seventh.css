@@ -231,12 +231,27 @@ h4{
     width: 480px;
     height: 100%;
     background: #ff6700;
+    overflow: hidden;
+}
+.welfare .top .big img{
+    transition: all 2s;
+}
+.welfare .top .big img:hover{
+    transform: scale(1.1,1.1);
+}
+.welfare .top .small img{
+    transition: all 2s;
+}
+.welfare .top .small img:hover{
+    transform: scale(1.1,1.1);
 }
 .welfare .top .small{
     width: 240px;
     height: 100%;
     background: #d8000f;
+    overflow: hidden;
 }
+
 .welfare .top .small.small1{
     background: #eaeaea;
 }
@@ -270,11 +285,25 @@ h4{
     width: 480px;
     height: 100%;
     background: #ff6700;
+    overflow: hidden;
 }
 .welfare .bottom .small{
     width: 240px;
     height: 100%;
     background: #d8000f;
+    overflow: hidden;
+}
+.welfare .bottom .big img{
+    transition: all 2s;
+}
+.welfare .bottom .big img:hover{
+    transform: scale(1.1,1.1);
+}
+.welfare .bottom .small img{
+    transition: all 2s;
+}
+.welfare .bottom .small img:hover{
+    transform: scale(1.1,1.1);
 }
 .welfare .bottom .small.small1{
     background: #eaeaea;
@@ -314,6 +343,21 @@ h4{
     width: 335px;
     height: 100%;
     background-image:url("../img/wel/social.png") ;
+    z-index: 80;
+    position: relative;
+}
+.recurit .recurLis:hover .mask{
+    display: block;
+}
+.recurit .recurLis:hover a{
+    color: white;
+}
+.recurit .recurLis .mask{
+    width: 335px;
+    height: 100%;
+    background: rgba(255,43,51,0.3);
+    z-index: 99;
+    display: none;
 }
 .recurit .recurLis a{
     width: 335px;
@@ -323,6 +367,10 @@ h4{
     text-align: center;
     line-height: 150px;
     font-weight: bold;
+    z-index: 999;
+    position: absolute;
+    bottom:0;
+    left:0;
 }
 /*底部*/
 .footer{
